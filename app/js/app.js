@@ -82,51 +82,6 @@ angular.module('App', ['ionic', 'ngCordova', 'ngAnimate', 'ionic-pullup', 'ion-f
                     }
                 }
             })
-            .state('app.dragon', {
-                url: "/dragon",
-                views: {
-                    viewContent: {
-                        templateUrl: "templates/dragon.html",
-                        controller: 'DragonController'
-                    }
-                }
-            })
-            .state('app.signature', {
-                url: "/signature",
-                views: {
-                    viewContent: {
-                        templateUrl: "templates/signature.html",
-                        controller: 'SignatureController'
-                    }
-                }
-            })
-			.state('app.starwars', {
-                url: "/starwars",
-                views: {
-                    viewContent: {
-                        templateUrl: "templates/starwars.html",
-                        controller: 'StarWarsController'
-                    }
-                }
-            })
-            .state('app.photo', {
-                url: "/photo",
-                views: {
-                    viewContent: {
-                        templateUrl: "templates/photo.html",
-                        controller: 'PhotoController'
-                    }
-                }
-            })
-            .state('app.tinder', {
-                url: "/tinder",
-                views: {
-                    viewContent: {
-                        templateUrl: "templates/tinder.html",
-                        controller: 'TinderController'
-                    }
-                }
-            })
             .state('app.flappybird', {
                 url: "/flappybird",
                 views: {
